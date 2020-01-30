@@ -1,0 +1,29 @@
+{
+  "name": "node-auth3-project",
+  "version": "1.0.0",
+  "description": "- Authentication.\r - Express Middleware.\r - JSON Web Tokens (JWTs).\r - Hashing Passwords.",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronShawnSoler/node-auth3-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AaronShawnSoler/node-auth3-project/issues"
+  },
+  "homepage": "https://github.com/AaronShawnSoler/node-auth3-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.8",
+    "nodemon": "^2.0.2",
+    "sqlite3": "^4.1.1"
+  }
+}
